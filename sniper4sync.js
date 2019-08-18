@@ -28,6 +28,11 @@ Console.onMessage(
 		if( / players$/.test(msg) ){
 			Console.info("There are remotely " + parseInt(msg) + " players connected");
 		}
+if (msg.charAt(0) == "") {
+	//upload to server
+
+}
 		console.log(msg)
+
 	}
 );
