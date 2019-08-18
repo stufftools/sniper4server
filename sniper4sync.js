@@ -10,6 +10,7 @@ $('.info').append($updateData);
 Asura.onStatusUpdate(
 	function(data){	
 		//$updateData.text(JSON.stringify(data, null, '\t'));
+		console.log(JSON.stringify(data, null, '\t'));
 console.log(data);
 	}
 );
@@ -28,11 +29,11 @@ Console.onMessage(
 		if( / players$/.test(msg) ){
 			Console.info("There are remotely " + parseInt(msg) + " players connected");
 		}
-if (msg.charAt(0) == "") {
-	//upload to server
+               if (msg.charAt(0) == "") {
+	          //upload to server
 
-}
-		console.log(msg)
+               }
+console.log(msg)
 
 	}
 );
