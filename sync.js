@@ -1,4 +1,4 @@
-alert("it works");
+alert(apikey);
 var $updateData = $('<pre>').css('white-space', 'pre-wrap');
 $('.info').append($updateData);
 Asura.onStatusUpdate(
