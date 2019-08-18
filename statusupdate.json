@@ -1,0 +1,35 @@
+{
+	"Server": {
+		"Name": "MARINA DM",
+		"Host": "86.238.236.82:27010"
+	},
+	"Version": "1.5.2",
+	"Build": "2017.07.28.6",
+	"Lobby": {
+		"State": "In-game",
+		"MaxPlayers": 12,
+		"Players": [
+			{
+				"Id": 0,
+				"Name": "Cip",
+				"SteamId": "76561198263679005",
+				"IPv4": "10.0.75.1",
+				"Latency": 12,
+				"Score": 0,
+				"Deaths": 0,
+				"Kills": 0,
+				"Assists": 0,
+				"LongestShot": 0
+			}
+		]
+	},
+	"GameData": {
+		"CurrentMap": {
+			"TimeLimit": 0,
+			"ScoreLimit": 0,
+			"Name": "MARINA",
+			"Mode": "DM",
+			"MaxPlayers": 12
+		}
+	}
+}
