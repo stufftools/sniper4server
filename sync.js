@@ -1,7 +1,7 @@
 alert("it works");
 var userapikey;
 function init(apikey) {
-	var userapikey = apikey;
+	userapikey = apikey;
 	
 	}
 
