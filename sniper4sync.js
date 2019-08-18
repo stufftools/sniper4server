@@ -29,5 +29,6 @@ Console.onMessage(
 		if( / players$/.test(msg) ){
 			Console.info("There are remotely " + parseInt(msg) + " players connected");
 		}
+		console.log(msg)
 	}
 );
