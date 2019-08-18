@@ -1,5 +1,5 @@
 alert("it works");
-var userapikey;
+var userapikey = "";
 function init(apikey) {
 	userapikey = apikey;
 	
