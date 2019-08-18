@@ -5,3 +5,4 @@ Asura.onStatusUpdate(
 	function(data){
 		$updateData.text(JSON.stringify(data, null, '\t'));
 	}
+);
