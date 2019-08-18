@@ -3,7 +3,7 @@ function init(apikey) {
 	var apikey = apikey;
 	alert(apikey);
 	}
-);
+
 
 var $updateData = $('<pre>').css('white-space', 'pre-wrap');
 
