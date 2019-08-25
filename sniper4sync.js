@@ -3,22 +3,19 @@ function init(apikey) {
 	userapikey = apikey;
 	
 	}
-function statusupdate(data)
-{
-//data["apikey"] = userapikey;
-var statusUpdate = {
-    apikey: userapikey,
-    timestamp: new Date().getTime(),
-    data: data
-};
-console.log(statusUpdate);	
-	
-}
 
 Asura.onStatusUpdate(
-		statusupdate(data);
+	function(data){
+	 var statusUpdate = {
+           apikey: userapikey,
+           timestamp: new Date().getTime(),
+          data: data
+         };
+console.log(statusUpdate);
+
+	}
 );
-console.log(userapikey);
+
 // Execute the console command Game.Info every 5 seconds:
 //setInterval(
 //	function(){
