@@ -16,9 +16,7 @@ console.log(statusUpdate);
 }
 
 Asura.onStatusUpdate(
-	function(data){
 		statusupdate(data);
-	}
 );
 console.log(userapikey);
 // Execute the console command Game.Info every 5 seconds:
