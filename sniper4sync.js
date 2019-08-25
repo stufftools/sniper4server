@@ -3,17 +3,21 @@ function init(apikey) {
 	userapikey = apikey;
 	
 	}
-Asura.onStatusUpdate(
-	function(data){
+function statusupdate(data)
+{
 //data["apikey"] = userapikey;
 var statusUpdate = {
     apikey: userapikey,
     timestamp: new Date().getTime(),
     data: data
-};		
-		//$updateData.text(JSON.stringify(data, null, '\t'));
-		//console.log(JSON.stringify(data, null, '\t'));
-console.log(statusUpdate);
+};
+console.log(statusUpdate);	
+	
+}
+
+Asura.onStatusUpdate(
+	function(data){
+		statusupdate(data);
 	}
 );
 console.log(userapikey);
