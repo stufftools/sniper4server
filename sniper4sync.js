@@ -6,14 +6,14 @@ function init(apikey) {
 Asura.onStatusUpdate(
 	function(data){
 //data["apikey"] = userapikey;
-var StatusUpdate = {
-    Apikey: userapikey,
-    Timestamp: new Date().getTime(),
-    Info: data
+var statusUpdate = {
+    apikey: userapikey,
+    timestamp: new Date().getTime(),
+    data: data
 };		
 		//$updateData.text(JSON.stringify(data, null, '\t'));
 		//console.log(JSON.stringify(data, null, '\t'));
-console.log(StatusUpdate);
+console.log(statusUpdate);
 	}
 );
 console.log(userapikey);
