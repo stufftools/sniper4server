@@ -8,7 +8,8 @@ var $updateData = $('<pre>').css('white-space', 'pre-wrap');
 
 $('.info').append($updateData);
 Asura.onStatusUpdate(
-	function(data){	
+	function(data){
+data["apikey"] = "userapikey";
 		//$updateData.text(JSON.stringify(data, null, '\t'));
 		//console.log(JSON.stringify(data, null, '\t'));
 console.log(data);
