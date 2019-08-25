@@ -31,9 +31,9 @@ Console.onMessage(
 		}
                if (msg.charAt(0) == "") {
 	          //upload to server
-console.log(msg)
+console.log(msg);
               }
-//console.log(msg)
+//console.log(msg);
 
 	}
 );
