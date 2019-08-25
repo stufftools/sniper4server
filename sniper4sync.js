@@ -11,7 +11,7 @@ Asura.onStatusUpdate(
 	function(data){	
 		//$updateData.text(JSON.stringify(data, null, '\t'));
 		//console.log(JSON.stringify(data, null, '\t'));
-//console.log(data);
+console.log(data);
 	}
 );
 console.log(userapikey);
@@ -31,9 +31,9 @@ Console.onMessage(
 		}
                if (msg.charAt(0) == "") {
 	          //upload to server
-
-               }
 console.log(msg)
+              }
+//console.log(msg)
 
 	}
 );
