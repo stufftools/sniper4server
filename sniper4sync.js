@@ -11,7 +11,7 @@ Asura.onStatusUpdate(
            timestamp: new Date().getTime(),
           data: data
          };
-console.log(statusUpdate);
+//console.log(statusUpdate);
 
 	}
 );
@@ -34,7 +34,11 @@ Console.onMessage(
 	          //upload to server
 console.log(msg);
               }
-//console.log(msg);
-
+	 var eventUpdate = {
+           apikey: userapikey,
+           timestamp: new Date().getTime(),
+          data: msg
+         };
+console.log(eventUpdate);
 	}
 );
