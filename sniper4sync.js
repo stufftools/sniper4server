@@ -11,7 +11,7 @@ Asura.onStatusUpdate(
            timestamp: new Date().getTime(),
           data: data
          };
-//console.log(statusUpdate);
+console.log(statusUpdate);
 
 	}
 );
