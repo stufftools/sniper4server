@@ -42,3 +42,17 @@ console.log(msg);
 console.log(eventUpdate);
 	}
 );
+
+function getNodeById(id, node){
+    var reduce = [].reduce;
+    function runner(result, node){
+        if(result || !node) return result;
+        return node.id === id && node || //is this the proper node?
+            runner(null, node.children) || //process this nodes children
+            reduce.call(Object(node), runner, result);  //maybe this is some ArrayLike Structure
+    }
+    return runner(null, node);
+}
+
+//var target = getNodeById("52126f7d", objects);
+//target.children = children;
