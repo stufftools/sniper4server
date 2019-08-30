@@ -33,3 +33,307 @@
 		}
 	}
 }
+{
+	apikey: "apikeylongkey",
+	timestamp: 1567193162718,
+	data: {
+		…}
+}
+apikey: "apikeylongkey"
+data: Build: "2017.07.28.6"
+GameData: CurrentMap: {
+	TimeLimit: 0,
+	ScoreLimit: 0,
+	Name: "MARINA",
+	Mode: "DM",
+	MaxPlayers: 12
+}
+__proto__: ObjectLobby: MaxPlayers: 12 Players: Array(9) 0: Assists: 0 Deaths: 49 IPv4: "77.191.110.198"
+Id: 0 Kills: 74 Latency: 66 LongestShot: 73.099998 Name: "Exzellenz"
+Score: 74 SteamId: "76561198013527987"
+__proto__: Object1: Assists: 0 Deaths: 150 IPv4: "195.38.109.2"
+Id: 1 Kills: 67 Latency: 74 LongestShot: 84.800003 Name: "[SEO]-LEE-hun"
+Score: 67 SteamId: "76561198068653611"
+__proto__: Object2: {
+	Id: 2,
+	Name: "Rambler",
+	SteamId: "76561198114066064",
+	IPv4: "80.57.159.121",
+	Latency: 37,
+	…
+}
+3: Assists: 0 Deaths: 25 IPv4: "70.174.185.194"
+Id: 3 Kills: 30 Latency: 100 LongestShot: 29.300001 Name: "苏喂苏喂摇就完事"
+Score: 30 SteamId: "76561198140817424"
+__proto__: Object4: Assists: 0 Deaths: 17 IPv4: "73.203.115.190"
+Id: 4 Kills: 23 Latency: 150 LongestShot: 66.099998 Name: "LuckyNutwood"
+Score: 23 SteamId: "76561198982412678"
+__proto__: Object5: Assists: 0 Deaths: 21 IPv4: "47.144.163.45"
+Id: 5 Kills: 20 Latency: 166 LongestShot: 45.100002 Name: "AHalfDozenSpartans"
+Score: 20 SteamId: "76561198025857369"
+__proto__: Object6: {
+	Id: 6,
+	Name: "Z.R.I",
+	SteamId: "76561198400347522",
+	IPv4: "2.92.166.112",
+	Latency: 87,
+	…
+}
+7: {
+	Id: 7,
+	Name: "al2way93",
+	SteamId: "76561198820869594",
+	IPv4: "51.235.224.33",
+	Latency: 133,
+	…
+}
+8: {
+	Id: 8,
+	Name: "[cc] König",
+	SteamId: "76561198040825535",
+	IPv4: "146.199.71.84",
+	Latency: 237,
+	…
+}
+length: 9 __proto__: Array(0) State: "In-game"
+__proto__: ObjectServer: Host: "86.238.236.82:27010"
+Name: "MARINA DM"
+__proto__: ObjectVersion: "1.5.2"
+__proto__: Objecttimestamp: 1567193162718 __proto__: Object {
+	apikey: "apikeylongkey",
+	timestamp: 1567193162822,
+	data: "SERVER: SniperEliteAdmin.com Monitoring Active"
+}
+apikey: "apikeylongkey"
+data: "SERVER: SniperEliteAdmin.com Monitoring Active"
+timestamp: 1567193162822 __proto__: Object {
+	apikey: "apikeylongkey",
+	timestamp: 1567193163034,
+	data: "Rambler killed Z.R.I"
+}
+apikey: "apikeylongkey"
+data: "Rambler killed Z.R.I"
+timestamp: 1567193163034 __proto__: Object {
+	apikey: "apikeylongkey",
+	timestamp: 1567193164306,
+	data: "[cc] König killed [SEO]-LEE-hun"
+}
+apikey: "apikeylongkey"
+data: "[cc] König killed [SEO]-LEE-hun"
+timestamp: 1567193164306 __proto__: Object {
+	apikey: "apikeylongkey",
+	timestamp: 1567193167659,
+	data: {
+		…}
+}
+apikey: "apikeylongkey"
+data: Build: "2017.07.28.6"
+GameData: {
+	CurrentMap: {
+		…}
+}
+Lobby: {
+	State: "In-game",
+	MaxPlayers: 12,
+	Players: Array(9)
+}
+Server: {
+	Name: "MARINA DM",
+	Host: "86.238.236.82:27010"
+}
+Version: "1.5.2"
+__proto__: Objecttimestamp: 1567193167659 __proto__: Object {
+	apikey: "apikeylongkey",
+	timestamp: 1567193171473,
+	data: "Rambler killed Z.R.I"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193172658,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193177659,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193178674,
+	data: "[SEO]-LEE-hun killed al2way93"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193179573,
+	data: "Z.R.I killed Exzellenz"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193182663,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193186250,
+	data: "Z.R.I killed [SEO]-LEE-hun"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193187669,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193192668,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193197667,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193198782,
+	data: "苏喂苏喂摇就完事 killed LuckyNutwood"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193202251,
+	data: "AHalfDozenSpartans killed al2way93"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193202671,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193207674,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193209305,
+	data: "苏喂苏喂摇就完事 killed [SEO]-LEE-hun"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193212672,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193216072,
+	data: "Rambler killed Z.R.I"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193217674,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193222683,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193225916,
+	data: "苏喂苏喂摇就完事 killed Z.R.I"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193227443,
+	data: "benz.SS connected (10 players total)"
+}
+apikey: "apikeylongkey"
+data: "benz.SS connected (10 players total)"
+timestamp: 1567193227443 __proto__: Object {
+	apikey: "apikeylongkey",
+	timestamp: 1567193227702,
+	data: {
+		…}
+}
+apikey: "apikeylongkey"
+data: {
+	Server: {
+		…},
+	Version: "1.5.2",
+	Build: "2017.07.28.6",
+	Lobby: {
+		…},
+	GameData: {
+		…}
+}
+timestamp: 1567193227702 __proto__: Object {
+	apikey: "apikeylongkey",
+	timestamp: 1567193232693,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193237701,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193239764,
+	data: "Rambler killed [SEO]-LEE-hun"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193242376,
+	data: "[cc] König killed Z.R.I"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193242710,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193247723,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193248072,
+	data: "Z.R.I killed LuckyNutwood"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193249678,
+	data: "Rambler killed [SEO]-LEE-hun"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193252734,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193253482,
+	data: "苏喂苏喂摇就完事 killed benz.SS"
+}
+sniper4sync.js ? _ = 1567193115936 : 35 Rambler: bye bye all im out {
+	apikey: "apikeylongkey",
+	timestamp: 1567193256369,
+	data: "Rambler: bye bye all im out"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193257736,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193262744,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193266076,
+	data: "苏喂苏喂摇就完事 killed [SEO]-LEE-hun"
+}
+sniper4sync.js ? _ = 1567193115936 : 35 Exzellenz: by {
+	apikey: "apikeylongkey",
+	timestamp: 1567193267160,
+	data: "Exzellenz: by"
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193267745,
+	data: {
+		…}
+} {
+	apikey: "apikeylongkey",
+	timestamp: 1567193272748,
+	data: {
+		…}
+}
