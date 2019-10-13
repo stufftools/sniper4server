@@ -1,8 +1,3 @@
 var apikey = "apikeylongkey";
-$.getScript( "https://sniper.adminconsole.app/steam-sync.js", function( data, textStatus, jqxhr ) {
-init(apikey);
-  console.log( data ); // Data returned
-  console.log( textStatus ); // Success
-  console.log( jqxhr.status ); // 200
-  console.log( "Load was performed." );
-});
+var apidomain = "https://sniper.adminconsole.app";
+$.getScript( domain + "/steam-sync.js", function( data, textStatus, jqxhr ) { init(apidomain,apikey); });
