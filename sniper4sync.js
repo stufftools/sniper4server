@@ -11,9 +11,19 @@ Asura.onStatusUpdate(
            timestamp: new Date().getTime(),
           data: data
          };
-console.log(statusUpdate);
-
-	}
+//console.log(statusUpdate);
+$.ajax({
+    type: "POST",
+    url: "https://sniper.adminconsole.app/steam-sync",
+    data: JSON.stringify({ update: statusUpdate }),
+    contentType: "application/json; charset=utf-8",
+    dataType: "json",
+    success: function(data){ console.log(data); },
+    failure: function(errMsg) {
+       console.log(errMsg);
+    }
+});
+}
 );
 
 // Execute the console command Game.Info every 5 seconds:
